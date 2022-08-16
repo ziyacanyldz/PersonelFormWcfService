@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonelWcfService", "PersonelWcfService\PersonelWcfService.csproj", "{73285861-FF46-4C96-95E1-362EFC59A624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonelManagerLibrary", "..\..\Proje2\WindowsFormsApplication1\PersonelManagerLibrary\PersonelManagerLibrary.csproj", "{455A185B-FF2C-4A25-80D5-E771A34B0D09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonelForm", "PersonelForm\PersonelForm.csproj", "{36A71EF2-004E-49A7-987C-5F1BD72EC740}"
+	ProjectSection(ProjectDependencies) = postProject
+		{73285861-FF46-4C96-95E1-362EFC59A624} = {73285861-FF46-4C96-95E1-362EFC59A624}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73285861-FF46-4C96-95E1-362EFC59A624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73285861-FF46-4C96-95E1-362EFC59A624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73285861-FF46-4C96-95E1-362EFC59A624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73285861-FF46-4C96-95E1-362EFC59A624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{455A185B-FF2C-4A25-80D5-E771A34B0D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{455A185B-FF2C-4A25-80D5-E771A34B0D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{455A185B-FF2C-4A25-80D5-E771A34B0D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{455A185B-FF2C-4A25-80D5-E771A34B0D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A71EF2-004E-49A7-987C-5F1BD72EC740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A71EF2-004E-49A7-987C-5F1BD72EC740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A71EF2-004E-49A7-987C-5F1BD72EC740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A71EF2-004E-49A7-987C-5F1BD72EC740}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
